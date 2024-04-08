@@ -1,0 +1,91 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.box {
+    border: 2px solid black;
+    padding: 1em;
+    height: 35em;
+    width: 35em;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.133), -2px -2px 5px rgba(0, 0, 0, 0.133);
+    border-radius: 10px;
+}
+.box .absolute {  
+    justify-content: end;
+    position: relative;
+}
+
+.titulo {
+    font-size: 1em;
+    font-weight: bolder;
+    background-color: orange;
+    padding: 0.1em;
+    text-align: start;
+    text-transform: uppercase;
+}
+.subtitulo {
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+.form {
+    margin-top: 1em;
+    padding: 1em 0;
+    gap: 1em;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.pos2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 6em;
+}
+
+.absolute {
+    margin-bottom: 1.4em;
+}
+
+input {
+    border: 1px solid black;
+}
+
+.obs_div{
+    margin-top: 1.6em;
+}
+
+.models_div { 
+    margin-top: 4em;
+}
+
+.cba {
+    position: absolute;
+    margin: 1em 0 0 0 ;
+}
+
+.button_size {
+    margin-top: 5em;
+    padding: 0.3em;
+    font-size: 1em;
+    border-radius: 5px;
+    opacity: 0.6;
+}
+.button_size:hover {
+    opacity: 1;
+    color: #00aeff;
+    border: 2px solid #00aeff;
+    background-color: #effaff;
+}
